@@ -11,6 +11,12 @@ namespace DesignPatterns
     public abstract class AbstractFactory
     {
         public abstract AbstractType Create();
+        
+        // base class for concrete type created by concrete factory
+        public abstract class AbstractType
+        {
+            public abstract void Foo();
+        }
     }
 
     // concrete factory derives from abstract factory and 
@@ -21,19 +27,13 @@ namespace DesignPatterns
         {
             return new ConcreteType();
         }
-    }
 
-    // base class for concrete type created by concrete factory
-    public abstract class AbstractType
-    {
-        public abstract void Foo();
-    }
-
-    public class ConcreteType : AbstractType
-    {
-        public override void Foo()
+        public class ConcreteType : AbstractType
         {
-            Console.WriteLine("Foo");
+            public override void Foo()
+            {
+                Console.WriteLine("Foo");
+            }
         }
     }
 
@@ -46,7 +46,7 @@ namespace DesignPatterns
             var factory = new ConcreteFactory();
             var type = factory.Create();
             type.Foo();
-            Assert.IsInstanceOfType(type, typeof(ConcreteType));
+            Assert.IsInstanceOfType(type, typeof(ConcreteFactory.ConcreteType));
         }
     }
 }
