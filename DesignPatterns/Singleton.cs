@@ -36,7 +36,7 @@ namespace DesignPatterns
     }
 
     [TestClass]
-    public class SingletonTest
+    public class SingletonTests
     {
         [TestMethod]
         public void GetInstance()

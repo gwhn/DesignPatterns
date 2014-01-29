@@ -50,7 +50,7 @@ namespace DesignPatterns
     }
 
     [TestClass]
-    public class DisposableTest
+    public class DisposableTests
     {
         [TestMethod]
         public void ExplicitDisposal()
