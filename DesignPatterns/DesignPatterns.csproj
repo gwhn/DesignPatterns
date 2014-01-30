@@ -51,6 +51,7 @@
     <Compile Include="Creational\Singleton\Singleton.cs" />
     <Compile Include="Structural\Bridge\Bridge.cs" />
     <Compile Include="Structural\Composite\Composite.cs" />
+    <Compile Include="Structural\Decorator\Decorator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\ChainOfResponsibility\" />
@@ -64,7 +65,6 @@
     <Folder Include="Behavioral\Strategy\" />
     <Folder Include="Behavioral\TemplateMethod\" />
     <Folder Include="Behavioral\Visitor\" />
-    <Folder Include="Structural\Decorator\" />
     <Folder Include="Structural\Facade\" />
     <Folder Include="Structural\Flyweight\" />
     <Folder Include="Structural\Proxy\" />
