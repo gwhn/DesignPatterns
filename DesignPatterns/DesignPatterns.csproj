@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Behavioral\ChainOfResponsibility\ChainOfResponsibility.cs" />
     <Compile Include="Behavioral\Command\Command.cs" />
+    <Compile Include="Behavioral\Interpreter\Interpreter.cs" />
     <Compile Include="Creational\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Creational\Builder\Builder.cs" />
     <Compile Include="Structural\Adapter\Adapter.cs" />
@@ -59,7 +60,6 @@
     <Compile Include="Structural\Proxy\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral\Interpreter\" />
     <Folder Include="Behavioral\Iterator\" />
     <Folder Include="Behavioral\Mediator\" />
     <Folder Include="Behavioral\Memento\" />
