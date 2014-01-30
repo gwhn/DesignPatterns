@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\ChainOfResponsibility\ChainOfResponsibility.cs" />
     <Compile Include="Creational\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Creational\Builder\Builder.cs" />
     <Compile Include="Structural\Adapter\Adapter.cs" />
@@ -57,7 +58,6 @@
     <Compile Include="Structural\Proxy\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral\ChainOfResponsibility\" />
     <Folder Include="Behavioral\Command\" />
     <Folder Include="Behavioral\Interpreter\" />
     <Folder Include="Behavioral\Iterator\" />
