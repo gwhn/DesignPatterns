@@ -54,6 +54,7 @@
     <Compile Include="Structural\Decorator\Decorator.cs" />
     <Compile Include="Structural\Facade\Facade.cs" />
     <Compile Include="Structural\Flyweight\Flyweight.cs" />
+    <Compile Include="Structural\Proxy\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral\ChainOfResponsibility\" />
@@ -67,7 +68,6 @@
     <Folder Include="Behavioral\Strategy\" />
     <Folder Include="Behavioral\TemplateMethod\" />
     <Folder Include="Behavioral\Visitor\" />
-    <Folder Include="Structural\Proxy\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
