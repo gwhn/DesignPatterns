@@ -40,14 +40,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory.cs" />
-    <Compile Include="Builder.cs" />
+    <Compile Include="Creational\AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="Creational\Builder\Builder.cs" />
     <Compile Include="Disposable.cs" />
-    <Compile Include="FactoryMethod.cs" />
+    <Compile Include="Creational\FactoryMethod\FactoryMethod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Prototype.cs" />
+    <Compile Include="Creational\Prototype\Prototype.cs" />
     <Compile Include="Serialization.cs" />
-    <Compile Include="Singleton.cs" />
+    <Compile Include="Creational\Singleton\Singleton.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Behavioral\ChainOfResponsibility\" />
+    <Folder Include="Behavioral\Command\" />
+    <Folder Include="Behavioral\Interpreter\" />
+    <Folder Include="Behavioral\Iterator\" />
+    <Folder Include="Behavioral\Mediator\" />
+    <Folder Include="Behavioral\Memento\" />
+    <Folder Include="Behavioral\Observer\" />
+    <Folder Include="Behavioral\State\" />
+    <Folder Include="Behavioral\Strategy\" />
+    <Folder Include="Behavioral\TemplateMethod\" />
+    <Folder Include="Behavioral\Visitor\" />
+    <Folder Include="Structural\Adapter\" />
+    <Folder Include="Structural\Bridge\" />
+    <Folder Include="Structural\Composite\" />
+    <Folder Include="Structural\Decorator\" />
+    <Folder Include="Structural\Facade\" />
+    <Folder Include="Structural\Flyweight\" />
+    <Folder Include="Structural\Proxy\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
