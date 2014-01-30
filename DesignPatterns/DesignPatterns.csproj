@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Creational\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Creational\Builder\Builder.cs" />
+    <Compile Include="Structural\Adapter\Adapter.cs" />
     <Compile Include="Disposable.cs" />
     <Compile Include="Creational\FactoryMethod\FactoryMethod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,7 +62,6 @@
     <Folder Include="Behavioral\Strategy\" />
     <Folder Include="Behavioral\TemplateMethod\" />
     <Folder Include="Behavioral\Visitor\" />
-    <Folder Include="Structural\Adapter\" />
     <Folder Include="Structural\Bridge\" />
     <Folder Include="Structural\Composite\" />
     <Folder Include="Structural\Decorator\" />
