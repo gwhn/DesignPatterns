@@ -47,6 +47,8 @@
     <Compile Include="Behavioral\Mediator\Mediator.cs" />
     <Compile Include="Behavioral\Memento\Memento.cs" />
     <Compile Include="Behavioral\Observer\Observer.cs" />
+    <Compile Include="Behavioral\State\State.cs" />
+    <Compile Include="Behavioral\Strategy\Strategy.cs" />
     <Compile Include="Creational\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="Creational\Builder\Builder.cs" />
     <Compile Include="Structural\Adapter\Adapter.cs" />
@@ -64,8 +66,6 @@
     <Compile Include="Structural\Proxy\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral\State\" />
-    <Folder Include="Behavioral\Strategy\" />
     <Folder Include="Behavioral\TemplateMethod\" />
     <Folder Include="Behavioral\Visitor\" />
   </ItemGroup>
